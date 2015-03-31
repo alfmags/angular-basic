@@ -1,0 +1,16 @@
+{
+  "name": "Git-Angular-AMS",
+  "version": "1.0.0",
+  "description": "Barebones angular project",
+  "main": "index.js",
+  "repository": "https://github.com/alfmags/angular-basic.git",
+  "scripts": {
+    "test": "\"no test specified\"",
+    "postinstall": "bower install",
+
+    "prestart": "npm install",
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  },
+  "author": "AMS",
+  "license": "ISC"
+}
